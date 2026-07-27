@@ -1,9 +1,30 @@
 aid: hook
 name: Hook
-description: Hook is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Hook is a London-based software company building AI agents for customer success
+  (CS) teams. Its platform integrates product usage, revenue, support, and sales
+  data to build a 360-degree view of each account, then uses predictive models to
+  forecast churn, renewals, net revenue retention (NRR), and expansion up to six
+  months ahead. Named agents such as Echo and Activator surface account insights
+  and automate the administrative work CS teams would otherwise do by hand, helping
+  subscription businesses reduce churn and grow expansion revenue without adding
+  headcount. Hook is a SaaS product used by customer success and revenue teams; it
+  is not a public developer API, so this profile enriches company identity and
+  security posture rather than API artifacts. Surfaced as a venture-portfolio lead
+  and added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/hook/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://hook.co/en/opengraph-image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +33,53 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Customer Success
+- AI Agents
+- Churn Prediction
+- Retention
+- Net Revenue Retention
+- SaaS
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: TrustCenter
+  url: security/hook-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/hook-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/hook-domain-security.yml
+- type: Website
+  url: https://hook.co/
+- type: Products
+  url: https://hook.co/products
+- type: About
+  url: https://hook.co/about-us
+- type: Support
+  url: https://hook.co/contact
+- type: Login
+  url: https://app.hook.co/login
+- type: Blog
+  url: https://hook.co/resources
+- type: TermsOfService
+  url: https://hook.co/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://hook.co/privacy-policy
+- type: LinkedIn
+  url: https://uk.linkedin.com/company/hook-technology/
+- type: Security
+  url: https://hook.co/security
+- type: Compliance
+  url: https://hook.co/security
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

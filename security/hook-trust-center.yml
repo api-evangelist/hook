@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+probe: true
+source: https://hook.co/security
+url: https://hook.co/security
+trust_center_url: https://trust.hook.co/
+certifications:
+- SOC 2 Type 2
+- ISO 27001
+- GDPR
+evidence:
+- source: https://hook.co/security
+  keywords:
+  - soc 2 type 2
+  - iso/iec 27001
+  - gdpr
+  - trust center
+- source: https://trust.hook.co/
+  kind: trust center
