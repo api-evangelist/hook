@@ -1,0 +1,29 @@
+# Front Door AI Index — hook — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: hook
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: hook.co
+  final_host: hook.co
+  ownership: own
+  owner: hook
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 11
+  host_score: 11
+  density: 13.16
+  words: 836
+  tiers:
+    agentic: 5
+    core: 6
+    model: 0
+  ambiguous: 13
+  top_terms:
+    agent: 12
+    AI: 6
+    AI agent: 4
+    predictive: 1
+    prompts: 1
